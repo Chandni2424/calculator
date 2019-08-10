@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href="assets/stylesheet/main.css">
+		<script src="./script.js"></script>
+
+	</head>
+	<body>
+		<section class="calculator">
+			<form name="myform">
+				<input type="text" name="display"><br>
+				<input class="btn" type="button" name="btnsin" value="sin" onclick="fnsin()">
+				<input class="btn" type="button" name="btncos" value="cos" onclick="fncos()">
+				<input class="btn" type="button" name="btntan" value="tan" onclick="fntan()">
+				<input class="btn" type="button" name="btnsqr" value="^2" onclick="square()">
+				<input class="btn" type="button" name="btnsqrt" value="Rt" onclick="squarert()"><br>
+				<input class="btn" type="button" name="btn7" value="7" onclick="clickNumber('7')">
+				<input class="btn" type="button" name="btn8" value="8" onclick="clickNumber('8')">
+				<input class="btn" type="button" name="btn9" value="9" onclick="clickNumber('9')">
+				<input class="btn" type="button" name="btndel" value="DEL" onclick="backspace()">
+				<input class="btn" type="button" name="btnac" value="AC" onclick="ac()"><br>
+				<input class="btn" type="button" name="btn4" value="4" onclick="clickNumber('4')">
+				<input class="btn" type="button" name="btn5" value="5" onclick="clickNumber('5')">
+				<input class="btn" type="button" name="btn6" value="6" onclick="clickNumber('6')">
+				<input class="btn" type="button" name="btnsub" value="-" onclick="clickNumber('-')">
+				<input class="btn" type="button" name="btnadd" value="+" onclick="clickNumber('+')"><br>
+				<input class="btn" type="button" name="btn1" value="1" onclick="clickNumber('1')">
+				<input class="btn" type="button" name="btn2" value="2" onclick="clickNumber('2')">
+				<input class="btn" type="button" name="btn3" value="3" onclick="clickNumber('3')">
+				<input class="btn" type="button" name="btnmul" value="*" onclick="clickNumber('*')">
+				<input class="btn" type="button" name="btndiv" value="/" onclick="clickNumber('/')"><br>
+				<input class="btn" type="button" name="btnzero" value="0" onclick="clickNumber('0')">
+				<input class="btn" type="button" name="btntwozero" value="00" onclick="clickNumber('00')">
+				<input class="btn" type="button" name="btnpoint" value="." onclick="clickNumber('.')">
+				<input class="btn" type="button" name="btnm" value="*" onclick="clickNumber('*')">
+				<input class="btn" type="button" name="btnequal" value="=" onclick="equalTo()">
+			</form>
+		</section>
+
+
+	</body>
+	</html>
